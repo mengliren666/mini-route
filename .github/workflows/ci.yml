@@ -13,7 +13,7 @@ jobs:
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@master
       env:
-        ACCESS_TOKEN: ${{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}}
+        ACCESS_TOKEN: ${{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}}
         BRANCH: gh-pages
         FOLDER: build
         BUILD_SCRIPT: npm install && npm run build
